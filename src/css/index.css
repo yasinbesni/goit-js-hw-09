@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+  }
+  .pages-button-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    
+  }
+  .page-button {
+    border: solid, 1px;
+    box-shadow: 3px 3px;
+    padding: 3px 5px;
+    color: lightgreen;
+    text-decoration-line: none;
+  }
+  .gallery {
+      list-style-type: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+  }
+  .gallery-image {
+      width: 360px;
+      height: 200px;
+  }
+  .feedback-form {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #2e2f42;
+  }
+  .feedback-form label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+  }
+  .feedback-form button {
+    background-color: #4E75FF;
+    color: #ffffff;
+    width: 95px;
+    height: 40px;
+    margin-top: 16px;
+    align-items: start;
+    border: none;
+    border-radius: 8px;
+  
+  }
+  
